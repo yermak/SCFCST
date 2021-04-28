@@ -1,0 +1,387 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 40426,
+    "StartTime": "2020-08-30T01:19:03+01:00",
+    "Title": "383",
+    "MapWidth": 128,
+    "MapHeight": 128,
+    "AvailSlotsCount": 8,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Top vs Bottom",
+      "ID": 15,
+      "ShortName": "TvB"
+    },
+    "SubType": 4,
+    "Host": "storm80",
+    "Map": "\u0003Fa쬽e쬽 Map\u0005_-PERFECTED",
+    "Players": [
+      {
+        "SlotID": 3,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 6,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 0,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "shap",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 7,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Jungle",
+      "ID": 4
+    },
+    "Name": "\u0003Fa쬽e쬽 Map\u0005_-PERFECTED-_",
+    "Description": "\u0003Created By s-n-i-p-e-r-765 aka sniper[uF] Clan Untamed Force  \u0007ED Productions\t    \u0005 A good Fastest map that works and is just perfect, no gay shit or anything.\tIf you have any questions or comments or anything else just message me.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t--sniper\u0001\u0001\u0001",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 3648,
+        "Y": 304,
+        "SlotID": 7
+      },
+      {
+        "X": 2048,
+        "Y": 304,
+        "SlotID": 1
+      },
+      {
+        "X": 448,
+        "Y": 304,
+        "SlotID": 0
+      },
+      {
+        "X": 3648,
+        "Y": 2032,
+        "SlotID": 2
+      },
+      {
+        "X": 448,
+        "Y": 2032,
+        "SlotID": 6
+      },
+      {
+        "X": 448,
+        "Y": 3760,
+        "SlotID": 5
+      },
+      {
+        "X": 2048,
+        "Y": 3760,
+        "SlotID": 4
+      },
+      {
+        "X": 3648,
+        "Y": 3760,
+        "SlotID": 3
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 32420,
+        "PlayerID": 4,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 33971,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": [
+      {
+        "Frame": 10307,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 5,
+        "Message": "u igora uje 2 batona"
+      },
+      {
+        "Frame": 13926,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 5,
+        "Message": "6?"
+      },
+      {
+        "Frame": 14023,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 3,
+        "Message": "y"
+      },
+      {
+        "Frame": 14319,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 5,
+        "Message": "1 min"
+      },
+      {
+        "Frame": 16558,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 3,
+        "Message": "6"
+      },
+      {
+        "Frame": 16768,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 5,
+        "Message": "6"
+      }
+    ],
+    "WinnerTeam": 0,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 33971,
+        "CmdCount": 1120,
+        "APM": 47,
+        "EffectiveCmdCount": 1103,
+        "EAPM": 46,
+        "StartLocation": {
+          "X": 3648,
+          "Y": 3760
+        },
+        "StartDirection": 5
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 39982,
+        "CmdCount": 1511,
+        "APM": 54,
+        "EffectiveCmdCount": 1465,
+        "EAPM": 52,
+        "StartLocation": {
+          "X": 448,
+          "Y": 3760
+        },
+        "StartDirection": 7
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 40187,
+        "CmdCount": 1163,
+        "APM": 41,
+        "EffectiveCmdCount": 1148,
+        "EAPM": 41,
+        "StartLocation": {
+          "X": 448,
+          "Y": 2032
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 32420,
+        "CmdCount": 640,
+        "APM": 28,
+        "EffectiveCmdCount": 606,
+        "EAPM": 27,
+        "StartLocation": {
+          "X": 448,
+          "Y": 304
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 40363,
+        "CmdCount": 1688,
+        "APM": 60,
+        "EffectiveCmdCount": 1657,
+        "EAPM": 59,
+        "StartLocation": {
+          "X": 2048,
+          "Y": 3760
+        },
+        "StartDirection": 6
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 40408,
+        "CmdCount": 3045,
+        "APM": 108,
+        "EffectiveCmdCount": 2842,
+        "EAPM": 100,
+        "StartLocation": {
+          "X": 3648,
+          "Y": 304
+        },
+        "StartDirection": 1
+      }
+    ]
+  }
+}

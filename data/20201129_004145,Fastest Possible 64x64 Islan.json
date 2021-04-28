@@ -1,0 +1,349 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 32533,
+    "StartTime": "2020-11-29T00:10:51Z",
+    "Title": "383",
+    "MapWidth": 64,
+    "MapHeight": 64,
+    "AvailSlotsCount": 8,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Top vs Bottom",
+      "ID": 15,
+      "ShortName": "TvB"
+    },
+    "SubType": 4,
+    "Host": "MAxWellMax",
+    "Map": "Micro Fastest Possible",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "shap",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 6,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Jungle",
+      "ID": 4
+    },
+    "Name": "Micro Fastest Possible",
+    "Description": "\u0001Like the \"Fa쬽e쬽 Po㎣ible\" Map, only smaller....\r\n\u000450 \u0003Stacked Minerals\r\n\u0004� Zerg rush 6 pool, wall door by depot/forge\r\n\u0006Nice \u0001StarForge \u0006Terran\r\n\u0007� Kill terran before Siege tank\r\n\r\n\u0004Map By: \u0007DVS1",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 224,
+        "Y": 144,
+        "SlotID": 0
+      },
+      {
+        "X": 960,
+        "Y": 144,
+        "SlotID": 1
+      },
+      {
+        "X": 1792,
+        "Y": 1888,
+        "SlotID": 7
+      },
+      {
+        "X": 224,
+        "Y": 1888,
+        "SlotID": 5
+      },
+      {
+        "X": 1792,
+        "Y": 144,
+        "SlotID": 2
+      },
+      {
+        "X": 1792,
+        "Y": 1040,
+        "SlotID": 4
+      },
+      {
+        "X": 1088,
+        "Y": 1872,
+        "SlotID": 6
+      },
+      {
+        "X": 224,
+        "Y": 1040,
+        "SlotID": 3
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 29296,
+        "PlayerID": 4,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 29750,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 31587,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": [
+      {
+        "Frame": 1271,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "zhmem 12"
+      }
+    ],
+    "WinnerTeam": 2,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 31587,
+        "CmdCount": 1631,
+        "APM": 74,
+        "EffectiveCmdCount": 1586,
+        "EAPM": 72,
+        "StartLocation": {
+          "X": 224,
+          "Y": 144
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 32412,
+        "CmdCount": 993,
+        "APM": 44,
+        "EffectiveCmdCount": 971,
+        "EAPM": 43,
+        "StartLocation": {
+          "X": 1792,
+          "Y": 144
+        },
+        "StartDirection": 1
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 29750,
+        "CmdCount": 932,
+        "APM": 45,
+        "EffectiveCmdCount": 916,
+        "EAPM": 44,
+        "StartLocation": {
+          "X": 224,
+          "Y": 1040
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 29296,
+        "CmdCount": 303,
+        "APM": 15,
+        "EffectiveCmdCount": 295,
+        "EAPM": 14,
+        "StartLocation": {
+          "X": 960,
+          "Y": 144
+        },
+        "StartDirection": 12
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 32531,
+        "CmdCount": 2302,
+        "APM": 101,
+        "EffectiveCmdCount": 2236,
+        "EAPM": 98,
+        "StartLocation": {
+          "X": 1792,
+          "Y": 1040
+        },
+        "StartDirection": 3
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 32522,
+        "CmdCount": 2196,
+        "APM": 96,
+        "EffectiveCmdCount": 2131,
+        "EAPM": 94,
+        "StartLocation": {
+          "X": 1088,
+          "Y": 1872
+        },
+        "StartDirection": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 9896,
+    "StartTime": "2020-08-29T23:31:55+01:00",
+    "Title": "383",
+    "MapWidth": 192,
+    "MapHeight": 192,
+    "AvailSlotsCount": 6,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Use map settings",
+      "ID": 10,
+      "ShortName": "UMS"
+    },
+    "SubType": 1,
+    "Host": "storm80",
+    "Map": "Razor Thicket",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 1,
+        "Name": "shap",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Jungle",
+      "ID": 4
+    },
+    "Name": "Razor Thicket",
+    "Description": "Suggested Players: 2, 4 or 6\r\n(FOR ALLIED PLAY USE MAP SETTINGS)\r\n\r\nDanger is everywhere!",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 3072,
+        "Y": 1040,
+        "SlotID": 0
+      },
+      {
+        "X": 4512,
+        "Y": 2096,
+        "SlotID": 4
+      },
+      {
+        "X": 1472,
+        "Y": 2192,
+        "SlotID": 2
+      },
+      {
+        "X": 4512,
+        "Y": 4112,
+        "SlotID": 3
+      },
+      {
+        "X": 1472,
+        "Y": 4112,
+        "SlotID": 5
+      },
+      {
+        "X": 3072,
+        "Y": 5168,
+        "SlotID": 1
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 9665,
+        "PlayerID": 4,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": null,
+    "WinnerTeam": 1,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 9883,
+        "CmdCount": 302,
+        "APM": 44,
+        "EffectiveCmdCount": 302,
+        "EAPM": 44,
+        "StartLocation": {
+          "X": 3072,
+          "Y": 1040
+        },
+        "StartDirection": 12
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 9850,
+        "CmdCount": 426,
+        "APM": 62,
+        "EffectiveCmdCount": 423,
+        "EAPM": 61,
+        "StartLocation": {
+          "X": 1472,
+          "Y": 2192
+        },
+        "StartDirection": 10
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 9862,
+        "CmdCount": 161,
+        "APM": 23,
+        "EffectiveCmdCount": 157,
+        "EAPM": 23,
+        "StartLocation": {
+          "X": 4512,
+          "Y": 2096
+        },
+        "StartDirection": 2
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 9880,
+        "CmdCount": 258,
+        "APM": 37,
+        "EffectiveCmdCount": 257,
+        "EAPM": 37,
+        "StartLocation": {
+          "X": 3072,
+          "Y": 5168
+        },
+        "StartDirection": 6
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 9442,
+        "CmdCount": 380,
+        "APM": 57,
+        "EffectiveCmdCount": 379,
+        "EAPM": 57,
+        "StartLocation": {
+          "X": 4512,
+          "Y": 4112
+        },
+        "StartDirection": 4
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 9665,
+        "CmdCount": 473,
+        "APM": 70,
+        "EffectiveCmdCount": 448,
+        "EAPM": 66,
+        "StartLocation": {
+          "X": 1472,
+          "Y": 4112
+        },
+        "StartDirection": 8
+      }
+    ]
+  }
+}

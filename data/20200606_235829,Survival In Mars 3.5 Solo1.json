@@ -1,0 +1,344 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 12025,
+    "StartTime": "2020-06-06T23:47:55+01:00",
+    "Title": "383",
+    "MapWidth": 256,
+    "MapHeight": 256,
+    "AvailSlotsCount": 7,
+    "Speed": {
+      "Name": "Faster",
+      "ID": 5
+    },
+    "Type": {
+      "Name": "Use map settings",
+      "ID": 10,
+      "ShortName": "UMS"
+    },
+    "SubType": 1,
+    "Host": "MAxWellMax",
+    "Map": "\u0007Survival \u0006In Mars\u0004 V3.5 \u0003",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "shap",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 7,
+        "ID": 255,
+        "Type": {
+          "Name": "Computer",
+          "ID": 1
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "Leviathan Brood",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 205,
+    "TileSet": {
+      "Name": "Desert",
+      "ID": 5
+    },
+    "Name": "\u0007Survival \u0006In Mars\u0004 V3.5 \u0003Solo 1.3",
+    "Description": "Survival In Mars Ver.3.5\r\nMade by_wp55dl@naver.com\r\n\r\nSolo(Cheat) 1.3 edited by lid 2017.10\r\nDownload://sc.nibbits.com/maps/140330\r\n",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 4448,
+        "Y": 4080,
+        "SlotID": 3
+      },
+      {
+        "X": 3968,
+        "Y": 4080,
+        "SlotID": 1
+      },
+      {
+        "X": 3840,
+        "Y": 4080,
+        "SlotID": 0
+      },
+      {
+        "X": 4320,
+        "Y": 4080,
+        "SlotID": 2
+      },
+      {
+        "X": 4160,
+        "Y": 4208,
+        "SlotID": 7
+      },
+      {
+        "X": 3840,
+        "Y": 4336,
+        "SlotID": 4
+      },
+      {
+        "X": 3968,
+        "Y": 4336,
+        "SlotID": 5
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 11914,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": null,
+    "WinnerTeam": 1,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 12025,
+        "CmdCount": 319,
+        "APM": 38,
+        "EffectiveCmdCount": 317,
+        "EAPM": 38,
+        "StartLocation": {
+          "X": 3840,
+          "Y": 4080
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 11515,
+        "CmdCount": 388,
+        "APM": 48,
+        "EffectiveCmdCount": 387,
+        "EAPM": 48,
+        "StartLocation": {
+          "X": 3968,
+          "Y": 4080
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 12005,
+        "CmdCount": 191,
+        "APM": 23,
+        "EffectiveCmdCount": 184,
+        "EAPM": 22,
+        "StartLocation": {
+          "X": 4320,
+          "Y": 4080
+        },
+        "StartDirection": 3
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 11914,
+        "CmdCount": 287,
+        "APM": 34,
+        "EffectiveCmdCount": 283,
+        "EAPM": 34,
+        "StartLocation": {
+          "X": 4448,
+          "Y": 4080
+        },
+        "StartDirection": 3
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 12025,
+        "CmdCount": 813,
+        "APM": 97,
+        "EffectiveCmdCount": 793,
+        "EAPM": 94,
+        "StartLocation": {
+          "X": 3840,
+          "Y": 4336
+        },
+        "StartDirection": 8
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 11986,
+        "CmdCount": 262,
+        "APM": 31,
+        "EffectiveCmdCount": 259,
+        "EAPM": 31,
+        "StartLocation": {
+          "X": 3968,
+          "Y": 4336
+        },
+        "StartDirection": 7
+      },
+      {
+        "PlayerID": 255,
+        "LastCmdFrame": 0,
+        "CmdCount": 0,
+        "APM": 0,
+        "EffectiveCmdCount": 0,
+        "EAPM": 0,
+        "StartLocation": {
+          "X": 4160,
+          "Y": 4208
+        },
+        "StartDirection": 5
+      }
+    ]
+  }
+}

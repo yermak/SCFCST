@@ -1,0 +1,385 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 51912,
+    "StartTime": "2021-03-07T01:21:00Z",
+    "Title": "383",
+    "MapWidth": 128,
+    "MapHeight": 128,
+    "AvailSlotsCount": 8,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Use map settings",
+      "ID": 10,
+      "ShortName": "UMS"
+    },
+    "SubType": 1,
+    "Host": "storm80",
+    "Map": "Big Game Hunters",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "shap",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 6,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 7,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 63,
+    "TileSet": {
+      "Name": "Jungle",
+      "ID": 4
+    },
+    "Name": "Big Game Hunters",
+    "Description": "Suggested Players: 2-8\r\n\r\nBy popular demand....\r\nUse map settings for pre-defined locations",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 384,
+        "Y": 240,
+        "SlotID": 0
+      },
+      {
+        "X": 2368,
+        "Y": 304,
+        "SlotID": 1
+      },
+      {
+        "X": 3680,
+        "Y": 304,
+        "SlotID": 2
+      },
+      {
+        "X": 320,
+        "Y": 1552,
+        "SlotID": 7
+      },
+      {
+        "X": 3712,
+        "Y": 2608,
+        "SlotID": 3
+      },
+      {
+        "X": 384,
+        "Y": 3696,
+        "SlotID": 6
+      },
+      {
+        "X": 3712,
+        "Y": 3760,
+        "SlotID": 4
+      },
+      {
+        "X": 2080,
+        "Y": 3792,
+        "SlotID": 5
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 50465,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": [
+      {
+        "Frame": 4186,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "leha dropi - mi vozduh?"
+      },
+      {
+        "Frame": 4490,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "i go crusers"
+      },
+      {
+        "Frame": 4575,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "ya batoni\\"
+      },
+      {
+        "Frame": 31783,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "9?"
+      },
+      {
+        "Frame": 32062,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "ili 5?"
+      },
+      {
+        "Frame": 32347,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "k"
+      },
+      {
+        "Frame": 32389,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "5"
+      }
+    ],
+    "WinnerTeam": 2,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 50465,
+        "CmdCount": 2102,
+        "APM": 60,
+        "EffectiveCmdCount": 1871,
+        "EAPM": 53,
+        "StartLocation": {
+          "X": 384,
+          "Y": 240
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 51775,
+        "CmdCount": 2083,
+        "APM": 57,
+        "EffectiveCmdCount": 1970,
+        "EAPM": 54,
+        "StartLocation": {
+          "X": 2368,
+          "Y": 304
+        },
+        "StartDirection": 12
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 51882,
+        "CmdCount": 2547,
+        "APM": 70,
+        "EffectiveCmdCount": 2484,
+        "EAPM": 68,
+        "StartLocation": {
+          "X": 3680,
+          "Y": 304
+        },
+        "StartDirection": 1
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 51891,
+        "CmdCount": 1281,
+        "APM": 35,
+        "EffectiveCmdCount": 1204,
+        "EAPM": 33,
+        "StartLocation": {
+          "X": 3712,
+          "Y": 3760
+        },
+        "StartDirection": 5
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 51888,
+        "CmdCount": 3892,
+        "APM": 107,
+        "EffectiveCmdCount": 3631,
+        "EAPM": 100,
+        "StartLocation": {
+          "X": 384,
+          "Y": 3696
+        },
+        "StartDirection": 8
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 51897,
+        "CmdCount": 3645,
+        "APM": 100,
+        "EffectiveCmdCount": 3486,
+        "EAPM": 96,
+        "StartLocation": {
+          "X": 320,
+          "Y": 1552
+        },
+        "StartDirection": 10
+      }
+    ]
+  }
+}

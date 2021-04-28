@@ -1,0 +1,350 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 15820,
+    "StartTime": "2020-11-29T01:04:37Z",
+    "Title": "383",
+    "MapWidth": 64,
+    "MapHeight": 64,
+    "AvailSlotsCount": 8,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Top vs Bottom",
+      "ID": 15,
+      "ShortName": "TvB"
+    },
+    "SubType": 4,
+    "Host": "MAxWellMax",
+    "Map": "\u0003Micro \u0004Fa쬽e쬽 Po㎣ibl",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 6,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 7,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "shap",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 205,
+    "TileSet": {
+      "Name": "Jungle",
+      "ID": 4
+    },
+    "Name": "\u0003Micro \u0004Fa쬽e쬽 Po㎣ible \u0003Green",
+    "Description": "\u0001Like the \"Fa쬽e쬽 Po㎣ible\" Map, only smaller....\r\n\u000450 \u0003Stacked Minerals\r\n\u00043 \u0003Vespenes / Base\r\n\u0006Nice \u0001StarForge \u0006Terran\r\n\r\n\u0004Map By: \u0007DVS1",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 224,
+        "Y": 160,
+        "SlotID": 0
+      },
+      {
+        "X": 1024,
+        "Y": 160,
+        "SlotID": 1
+      },
+      {
+        "X": 1824,
+        "Y": 160,
+        "SlotID": 2
+      },
+      {
+        "X": 224,
+        "Y": 1024,
+        "SlotID": 3
+      },
+      {
+        "X": 1824,
+        "Y": 1024,
+        "SlotID": 4
+      },
+      {
+        "X": 224,
+        "Y": 1920,
+        "SlotID": 5
+      },
+      {
+        "X": 1024,
+        "Y": 1920,
+        "SlotID": 6
+      },
+      {
+        "X": 1824,
+        "Y": 1920,
+        "SlotID": 7
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 10493,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 10851,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 15718,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 15798,
+        "PlayerID": 4,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": null,
+    "WinnerTeam": 1,
+    "PlayerDescs": [
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 15740,
+        "CmdCount": 571,
+        "APM": 52,
+        "EffectiveCmdCount": 562,
+        "EAPM": 51,
+        "StartLocation": {
+          "X": 224,
+          "Y": 160
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 15665,
+        "CmdCount": 769,
+        "APM": 70,
+        "EffectiveCmdCount": 744,
+        "EAPM": 68,
+        "StartLocation": {
+          "X": 1024,
+          "Y": 1920
+        },
+        "StartDirection": 6
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 15798,
+        "CmdCount": 387,
+        "APM": 35,
+        "EffectiveCmdCount": 386,
+        "EAPM": 35,
+        "StartLocation": {
+          "X": 1824,
+          "Y": 1920
+        },
+        "StartDirection": 5
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 15718,
+        "CmdCount": 402,
+        "APM": 37,
+        "EffectiveCmdCount": 397,
+        "EAPM": 36,
+        "StartLocation": {
+          "X": 1824,
+          "Y": 160
+        },
+        "StartDirection": 1
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 10851,
+        "CmdCount": 494,
+        "APM": 65,
+        "EffectiveCmdCount": 490,
+        "EAPM": 65,
+        "StartLocation": {
+          "X": 224,
+          "Y": 1024
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 10493,
+        "CmdCount": 686,
+        "APM": 93,
+        "EffectiveCmdCount": 632,
+        "EAPM": 86,
+        "StartLocation": {
+          "X": 224,
+          "Y": 1920
+        },
+        "StartDirection": 7
+      }
+    ]
+  }
+}

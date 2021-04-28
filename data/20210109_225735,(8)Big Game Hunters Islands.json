@@ -1,0 +1,539 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 30762,
+    "StartTime": "2021-01-09T22:27:38Z",
+    "Title": "383",
+    "MapWidth": 128,
+    "MapHeight": 128,
+    "AvailSlotsCount": 8,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Top vs Bottom",
+      "ID": 15,
+      "ShortName": "TvB"
+    },
+    "SubType": 4,
+    "Host": "storm80",
+    "Map": "Big Game Hunters",
+    "Players": [
+      {
+        "SlotID": 1,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 6,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 7,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "shap",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Jungle",
+      "ID": 4
+    },
+    "Name": "Big Game Hunters",
+    "Description": "Suggested Players: 2-8\r\n\r\nBy popular demand....",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 384,
+        "Y": 240,
+        "SlotID": 0
+      },
+      {
+        "X": 2368,
+        "Y": 304,
+        "SlotID": 1
+      },
+      {
+        "X": 3680,
+        "Y": 304,
+        "SlotID": 2
+      },
+      {
+        "X": 320,
+        "Y": 1552,
+        "SlotID": 7
+      },
+      {
+        "X": 3712,
+        "Y": 2608,
+        "SlotID": 3
+      },
+      {
+        "X": 384,
+        "Y": 3696,
+        "SlotID": 6
+      },
+      {
+        "X": 3712,
+        "Y": 3760,
+        "SlotID": 4
+      },
+      {
+        "X": 2080,
+        "Y": 3792,
+        "SlotID": 5
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 21576,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 29879,
+        "PlayerID": 4,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 30677,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": [
+      {
+        "Frame": 203,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 6,
+        "Message": "vozduh?"
+      },
+      {
+        "Frame": 265,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "drop dt"
+      },
+      {
+        "Frame": 321,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 6,
+        "Message": "k"
+      },
+      {
+        "Frame": 365,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "k"
+      },
+      {
+        "Frame": 5726,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "11 or 9?"
+      },
+      {
+        "Frame": 6072,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 6,
+        "Message": "stoyu corsair"
+      },
+      {
+        "Frame": 6152,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "11?"
+      },
+      {
+        "Frame": 6236,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "blizhe"
+      },
+      {
+        "Frame": 7405,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "6"
+      },
+      {
+        "Frame": 8071,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "3"
+      },
+      {
+        "Frame": 8450,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "3?"
+      },
+      {
+        "Frame": 8488,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "ok"
+      },
+      {
+        "Frame": 8544,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "ready"
+      },
+      {
+        "Frame": 8559,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "together pls"
+      },
+      {
+        "Frame": 8638,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": " 5 sec"
+      },
+      {
+        "Frame": 9006,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "ready"
+      },
+      {
+        "Frame": 11264,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "6?"
+      },
+      {
+        "Frame": 28205,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "9?"
+      },
+      {
+        "Frame": 28313,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "6"
+      },
+      {
+        "Frame": 28329,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 6,
+        "Message": "6"
+      }
+    ],
+    "WinnerTeam": 1,
+    "PlayerDescs": [
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 30705,
+        "CmdCount": 2009,
+        "APM": 93,
+        "EffectiveCmdCount": 1925,
+        "EAPM": 90,
+        "StartLocation": {
+          "X": 2368,
+          "Y": 304
+        },
+        "StartDirection": 12
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 30586,
+        "CmdCount": 1421,
+        "APM": 66,
+        "EffectiveCmdCount": 1385,
+        "EAPM": 65,
+        "StartLocation": {
+          "X": 3680,
+          "Y": 304
+        },
+        "StartDirection": 1
+      },
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 30712,
+        "CmdCount": 1210,
+        "APM": 56,
+        "EffectiveCmdCount": 1145,
+        "EAPM": 53,
+        "StartLocation": {
+          "X": 384,
+          "Y": 3696
+        },
+        "StartDirection": 8
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 21576,
+        "CmdCount": 783,
+        "APM": 52,
+        "EffectiveCmdCount": 746,
+        "EAPM": 49,
+        "StartLocation": {
+          "X": 3712,
+          "Y": 2608
+        },
+        "StartDirection": 4
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 29879,
+        "CmdCount": 1913,
+        "APM": 91,
+        "EffectiveCmdCount": 1862,
+        "EAPM": 89,
+        "StartLocation": {
+          "X": 2080,
+          "Y": 3792
+        },
+        "StartDirection": 6
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 30677,
+        "CmdCount": 754,
+        "APM": 35,
+        "EffectiveCmdCount": 719,
+        "EAPM": 33,
+        "StartLocation": {
+          "X": 320,
+          "Y": 1552
+        },
+        "StartDirection": 10
+      }
+    ]
+  }
+}

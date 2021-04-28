@@ -1,0 +1,292 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 28747,
+    "StartTime": "2020-10-03T23:26:25+01:00",
+    "Title": "383",
+    "MapWidth": 128,
+    "MapHeight": 128,
+    "AvailSlotsCount": 6,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Use map settings",
+      "ID": 10,
+      "ShortName": "UMS"
+    },
+    "SubType": 1,
+    "Host": "storm80",
+    "Map": "River of Light",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 1,
+        "Name": "shap",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Jungle",
+      "ID": 4
+    },
+    "Name": "River of Light",
+    "Description": "Suggested Players: 2-6\r\n(FOR ALLIED PLAY USE MAP SETTINGS)\r\n\r\nWatch out for the Bengalaas!",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 352,
+        "Y": 336,
+        "SlotID": 1
+      },
+      {
+        "X": 3744,
+        "Y": 368,
+        "SlotID": 5
+      },
+      {
+        "X": 320,
+        "Y": 1840,
+        "SlotID": 0
+      },
+      {
+        "X": 3744,
+        "Y": 1936,
+        "SlotID": 3
+      },
+      {
+        "X": 352,
+        "Y": 3696,
+        "SlotID": 2
+      },
+      {
+        "X": 3648,
+        "Y": 3696,
+        "SlotID": 4
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 18772,
+        "PlayerID": 4,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 21691,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": [
+      {
+        "Frame": 8038,
+        "PlayerID": 2,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "drop?"
+      }
+    ],
+    "WinnerTeam": 2,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 21691,
+        "CmdCount": 527,
+        "APM": 35,
+        "EffectiveCmdCount": 523,
+        "EAPM": 34,
+        "StartLocation": {
+          "X": 320,
+          "Y": 1840
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 28423,
+        "CmdCount": 711,
+        "APM": 36,
+        "EffectiveCmdCount": 706,
+        "EAPM": 35,
+        "StartLocation": {
+          "X": 352,
+          "Y": 336
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 18772,
+        "CmdCount": 370,
+        "APM": 28,
+        "EffectiveCmdCount": 358,
+        "EAPM": 27,
+        "StartLocation": {
+          "X": 352,
+          "Y": 3696
+        },
+        "StartDirection": 8
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 28735,
+        "CmdCount": 1213,
+        "APM": 60,
+        "EffectiveCmdCount": 1195,
+        "EAPM": 59,
+        "StartLocation": {
+          "X": 3744,
+          "Y": 1936
+        },
+        "StartDirection": 3
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 28732,
+        "CmdCount": 1020,
+        "APM": 51,
+        "EffectiveCmdCount": 1003,
+        "EAPM": 50,
+        "StartLocation": {
+          "X": 3648,
+          "Y": 3696
+        },
+        "StartDirection": 5
+      }
+    ]
+  }
+}

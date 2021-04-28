@@ -1,0 +1,401 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 33522,
+    "StartTime": "2021-03-20T22:14:53Z",
+    "Title": "383",
+    "MapWidth": 256,
+    "MapHeight": 256,
+    "AvailSlotsCount": 8,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Use map settings",
+      "ID": 10,
+      "ShortName": "UMS"
+    },
+    "SubType": 1,
+    "Host": "Harrier80",
+    "Map": "River Runs Through It",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 6,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "shap",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Jungle",
+      "ID": 4
+    },
+    "Name": "River Runs Through It",
+    "Description": "Suggested Players: 6-8\r\n(FOR ALLY PLAY USE MAP SETTINGS)\r\n\r\nDeep in the Jungle, a raging river runs through a valley of destruction.\r\n",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 480,
+        "Y": 1808,
+        "SlotID": 0
+      },
+      {
+        "X": 7744,
+        "Y": 2032,
+        "SlotID": 4
+      },
+      {
+        "X": 7712,
+        "Y": 3024,
+        "SlotID": 5
+      },
+      {
+        "X": 512,
+        "Y": 3280,
+        "SlotID": 1
+      },
+      {
+        "X": 7648,
+        "Y": 4528,
+        "SlotID": 6
+      },
+      {
+        "X": 576,
+        "Y": 4912,
+        "SlotID": 2
+      },
+      {
+        "X": 512,
+        "Y": 6256,
+        "SlotID": 3
+      },
+      {
+        "X": 7680,
+        "Y": 6320,
+        "SlotID": 7
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 32009,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 32045,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 33412,
+        "PlayerID": 5,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 33511,
+        "PlayerID": 4,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": [
+      {
+        "Frame": 9903,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "go?"
+      },
+      {
+        "Frame": 10052,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "kuda"
+      },
+      {
+        "Frame": 10134,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "nechem"
+      },
+      {
+        "Frame": 19021,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "kak nachet na 1"
+      },
+      {
+        "Frame": 19244,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "a ok"
+      }
+    ],
+    "WinnerTeam": 1,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 33452,
+        "CmdCount": 1192,
+        "APM": 51,
+        "EffectiveCmdCount": 1165,
+        "EAPM": 50,
+        "StartLocation": {
+          "X": 480,
+          "Y": 1808
+        },
+        "StartDirection": 10
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 33345,
+        "CmdCount": 1407,
+        "APM": 60,
+        "EffectiveCmdCount": 1391,
+        "EAPM": 60,
+        "StartLocation": {
+          "X": 512,
+          "Y": 3280
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 33511,
+        "CmdCount": 1744,
+        "APM": 74,
+        "EffectiveCmdCount": 1704,
+        "EAPM": 73,
+        "StartLocation": {
+          "X": 576,
+          "Y": 4912
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 32009,
+        "CmdCount": 1010,
+        "APM": 45,
+        "EffectiveCmdCount": 998,
+        "EAPM": 45,
+        "StartLocation": {
+          "X": 7744,
+          "Y": 2032
+        },
+        "StartDirection": 2
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 32045,
+        "CmdCount": 2035,
+        "APM": 91,
+        "EffectiveCmdCount": 1995,
+        "EAPM": 89,
+        "StartLocation": {
+          "X": 7712,
+          "Y": 3024
+        },
+        "StartDirection": 2
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 33412,
+        "CmdCount": 704,
+        "APM": 30,
+        "EffectiveCmdCount": 681,
+        "EAPM": 29,
+        "StartLocation": {
+          "X": 7648,
+          "Y": 4528
+        },
+        "StartDirection": 3
+      }
+    ]
+  }
+}

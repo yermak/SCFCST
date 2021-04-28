@@ -1,0 +1,291 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 476,
+    "StartTime": "2021-04-25T01:16:56+01:00",
+    "Title": "383",
+    "MapWidth": 64,
+    "MapHeight": 96,
+    "AvailSlotsCount": 6,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Top vs Bottom",
+      "ID": 15,
+      "ShortName": "TvB"
+    },
+    "SubType": 3,
+    "Host": "Harrier80",
+    "Map": "Crazy Critters",
+    "Players": [
+      {
+        "SlotID": 1,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 0,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "shap",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Jungle",
+      "ID": 4
+    },
+    "Name": "Crazy Critters",
+    "Description": "Suggested Players: 2-6\r\n(USE MAP SETTINGS)\r\n\r\nDestroy all enemy buildings and any critters that get in your way.",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 1760,
+        "Y": 336,
+        "SlotID": 1
+      },
+      {
+        "X": 288,
+        "Y": 336,
+        "SlotID": 4
+      },
+      {
+        "X": 1760,
+        "Y": 1488,
+        "SlotID": 5
+      },
+      {
+        "X": 288,
+        "Y": 1552,
+        "SlotID": 2
+      },
+      {
+        "X": 288,
+        "Y": 2672,
+        "SlotID": 0
+      },
+      {
+        "X": 1760,
+        "Y": 2736,
+        "SlotID": 3
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": null,
+    "ChatCmds": null,
+    "WinnerTeam": 0,
+    "PlayerDescs": [
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 458,
+        "CmdCount": 19,
+        "APM": 59,
+        "EffectiveCmdCount": 17,
+        "EAPM": 53,
+        "StartLocation": {
+          "X": 1760,
+          "Y": 336
+        },
+        "StartDirection": 1
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 447,
+        "CmdCount": 17,
+        "APM": 54,
+        "EffectiveCmdCount": 16,
+        "EAPM": 51,
+        "StartLocation": {
+          "X": 288,
+          "Y": 1552
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 372,
+        "CmdCount": 16,
+        "APM": 61,
+        "EffectiveCmdCount": 14,
+        "EAPM": 54,
+        "StartLocation": {
+          "X": 1760,
+          "Y": 2736
+        },
+        "StartDirection": 5
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 395,
+        "CmdCount": 8,
+        "APM": 29,
+        "EffectiveCmdCount": 8,
+        "EAPM": 29,
+        "StartLocation": {
+          "X": 288,
+          "Y": 2672
+        },
+        "StartDirection": 7
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 470,
+        "CmdCount": 49,
+        "APM": 149,
+        "EffectiveCmdCount": 40,
+        "EAPM": 122,
+        "StartLocation": {
+          "X": 288,
+          "Y": 336
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 466,
+        "CmdCount": 20,
+        "APM": 61,
+        "EffectiveCmdCount": 16,
+        "EAPM": 49,
+        "StartLocation": {
+          "X": 1760,
+          "Y": 1488
+        },
+        "StartDirection": 3
+      }
+    ]
+  }
+}

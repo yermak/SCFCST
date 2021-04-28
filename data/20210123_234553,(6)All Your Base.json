@@ -1,0 +1,312 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 34284,
+    "StartTime": "2021-01-23T23:21:17Z",
+    "Title": "383",
+    "MapWidth": 128,
+    "MapHeight": 128,
+    "AvailSlotsCount": 6,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Use map settings",
+      "ID": 10,
+      "ShortName": "UMS"
+    },
+    "SubType": 1,
+    "Host": "storm80",
+    "Map": "All Your Base",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "shap",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Badlands",
+      "ID": 0
+    },
+    "Name": "All Your Base",
+    "Description": "Suggested Players: 4-6\r\n\r\nYou have no chance to survive.\r\nMake your time.",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 1248,
+        "Y": 272,
+        "SlotID": 1
+      },
+      {
+        "X": 1952,
+        "Y": 272,
+        "SlotID": 0
+      },
+      {
+        "X": 2624,
+        "Y": 272,
+        "SlotID": 2
+      },
+      {
+        "X": 1856,
+        "Y": 3792,
+        "SlotID": 3
+      },
+      {
+        "X": 2592,
+        "Y": 3792,
+        "SlotID": 4
+      },
+      {
+        "X": 1152,
+        "Y": 3792,
+        "SlotID": 5
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 33398,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 34184,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": [
+      {
+        "Frame": 4502,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 5,
+        "Message": "zealot rush?"
+      },
+      {
+        "Frame": 4769,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 5,
+        "Message": "delat medicov?"
+      },
+      {
+        "Frame": 4852,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 4,
+        "Message": "pozdno"
+      }
+    ],
+    "WinnerTeam": 2,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 34184,
+        "CmdCount": 1019,
+        "APM": 43,
+        "EffectiveCmdCount": 987,
+        "EAPM": 41,
+        "StartLocation": {
+          "X": 1952,
+          "Y": 272
+        },
+        "StartDirection": 12
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 33398,
+        "CmdCount": 1673,
+        "APM": 72,
+        "EffectiveCmdCount": 1652,
+        "EAPM": 71,
+        "StartLocation": {
+          "X": 1248,
+          "Y": 272
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 34243,
+        "CmdCount": 771,
+        "APM": 32,
+        "EffectiveCmdCount": 759,
+        "EAPM": 32,
+        "StartLocation": {
+          "X": 1856,
+          "Y": 3792
+        },
+        "StartDirection": 6
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 34178,
+        "CmdCount": 1021,
+        "APM": 43,
+        "EffectiveCmdCount": 987,
+        "EAPM": 41,
+        "StartLocation": {
+          "X": 2592,
+          "Y": 3792
+        },
+        "StartDirection": 5
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 34187,
+        "CmdCount": 1399,
+        "APM": 58,
+        "EffectiveCmdCount": 1378,
+        "EAPM": 58,
+        "StartLocation": {
+          "X": 1152,
+          "Y": 3792
+        },
+        "StartDirection": 7
+      }
+    ]
+  }
+}

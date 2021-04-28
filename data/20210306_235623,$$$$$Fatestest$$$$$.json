@@ -1,0 +1,301 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 4190,
+    "StartTime": "2021-03-06T23:51:15Z",
+    "Title": "383",
+    "MapWidth": 128,
+    "MapHeight": 128,
+    "AvailSlotsCount": 8,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Top vs Bottom",
+      "ID": 15,
+      "ShortName": "TvB"
+    },
+    "SubType": 4,
+    "Host": "storm80",
+    "Map": "VGT29 - SC - Space",
+    "Players": [
+      {
+        "SlotID": 5,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 6,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 1,
+        "Name": "shap",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 7,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 0,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Space Platform",
+      "ID": 1
+    },
+    "Name": "VGT29 - SC - Space",
+    "Description": "Suggested Players: 2-8\r\n\r\n\r\nAuthor: Spartan[nK]\r\nURL: http://vilegaming.com\r\n",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 352,
+        "Y": 272,
+        "SlotID": 0
+      },
+      {
+        "X": 2208,
+        "Y": 272,
+        "SlotID": 1
+      },
+      {
+        "X": 3744,
+        "Y": 272,
+        "SlotID": 2
+      },
+      {
+        "X": 352,
+        "Y": 1744,
+        "SlotID": 7
+      },
+      {
+        "X": 3744,
+        "Y": 1744,
+        "SlotID": 3
+      },
+      {
+        "X": 352,
+        "Y": 3792,
+        "SlotID": 6
+      },
+      {
+        "X": 1888,
+        "Y": 3792,
+        "SlotID": 5
+      },
+      {
+        "X": 3744,
+        "Y": 3792,
+        "SlotID": 4
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": null,
+    "ChatCmds": null,
+    "WinnerTeam": 0,
+    "PlayerDescs": [
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 4103,
+        "CmdCount": 131,
+        "APM": 46,
+        "EffectiveCmdCount": 130,
+        "EAPM": 45,
+        "StartLocation": {
+          "X": 1888,
+          "Y": 3792
+        },
+        "StartDirection": 6
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 4098,
+        "CmdCount": 102,
+        "APM": 36,
+        "EffectiveCmdCount": 100,
+        "EAPM": 35,
+        "StartLocation": {
+          "X": 352,
+          "Y": 3792
+        },
+        "StartDirection": 7
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 4187,
+        "CmdCount": 534,
+        "APM": 182,
+        "EffectiveCmdCount": 514,
+        "EAPM": 175,
+        "StartLocation": {
+          "X": 352,
+          "Y": 1744
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 4136,
+        "CmdCount": 227,
+        "APM": 78,
+        "EffectiveCmdCount": 205,
+        "EAPM": 71,
+        "StartLocation": {
+          "X": 352,
+          "Y": 272
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 4187,
+        "CmdCount": 130,
+        "APM": 44,
+        "EffectiveCmdCount": 120,
+        "EAPM": 41,
+        "StartLocation": {
+          "X": 2208,
+          "Y": 272
+        },
+        "StartDirection": 12
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 4169,
+        "CmdCount": 193,
+        "APM": 66,
+        "EffectiveCmdCount": 191,
+        "EAPM": 65,
+        "StartLocation": {
+          "X": 3744,
+          "Y": 3792
+        },
+        "StartDirection": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 765,
+    "StartTime": "2020-09-27T02:48:58+01:00",
+    "Title": "383",
+    "MapWidth": 256,
+    "MapHeight": 256,
+    "AvailSlotsCount": 8,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Use map settings",
+      "ID": 10,
+      "ShortName": "UMS"
+    },
+    "SubType": 1,
+    "Host": "storm80",
+    "Map": "Impossible SEXY SLAVES v.2",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 1,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "shap",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 6,
+        "ID": 255,
+        "Type": {
+          "Name": "Computer",
+          "ID": 1
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "Tiamat Brood",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 7,
+        "ID": 255,
+        "Type": {
+          "Name": "Computer",
+          "ID": 1
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "Delta Squadron",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 205,
+    "TileSet": {
+      "Name": "Arctic",
+      "ID": 6
+    },
+    "Name": "Impossible SEXY SLAVES v.2.5",
+    "Description": "Impossible SLAVES\r\nIn this impo map you will be getting 1 hero at the start. Each hero have their own uniqe power to help beat these 8 impo levels.",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 2557,
+        "Y": 307,
+        "SlotID": 1
+      },
+      {
+        "X": 2700,
+        "Y": 308,
+        "SlotID": 3
+      },
+      {
+        "X": 4479,
+        "Y": 376,
+        "SlotID": 6
+      },
+      {
+        "X": 2634,
+        "Y": 399,
+        "SlotID": 2
+      },
+      {
+        "X": 2806,
+        "Y": 391,
+        "SlotID": 4
+      },
+      {
+        "X": 2509,
+        "Y": 474,
+        "SlotID": 0
+      },
+      {
+        "X": 2717,
+        "Y": 472,
+        "SlotID": 5
+      },
+      {
+        "X": 3853,
+        "Y": 7716,
+        "SlotID": 7
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": null,
+    "ChatCmds": null,
+    "WinnerTeam": 0,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 760,
+        "CmdCount": 10,
+        "APM": 19,
+        "EffectiveCmdCount": 10,
+        "EAPM": 19,
+        "StartLocation": {
+          "X": 2509,
+          "Y": 474
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 368,
+        "CmdCount": 4,
+        "APM": 16,
+        "EffectiveCmdCount": 4,
+        "EAPM": 16,
+        "StartLocation": {
+          "X": 2557,
+          "Y": 307
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 760,
+        "CmdCount": 15,
+        "APM": 28,
+        "EffectiveCmdCount": 15,
+        "EAPM": 28,
+        "StartLocation": {
+          "X": 2700,
+          "Y": 308
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 591,
+        "CmdCount": 8,
+        "APM": 19,
+        "EffectiveCmdCount": 8,
+        "EAPM": 19,
+        "StartLocation": {
+          "X": 2806,
+          "Y": 391
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 255,
+        "LastCmdFrame": 0,
+        "CmdCount": 0,
+        "APM": 0,
+        "EffectiveCmdCount": 0,
+        "EAPM": 0,
+        "StartLocation": {
+          "X": 4479,
+          "Y": 376
+        },
+        "StartDirection": 12
+      },
+      {
+        "PlayerID": 255,
+        "LastCmdFrame": 0,
+        "CmdCount": 0,
+        "APM": 0,
+        "EffectiveCmdCount": 0,
+        "EAPM": 0,
+        "StartLocation": {
+          "X": 3853,
+          "Y": 7716
+        },
+        "StartDirection": 6
+      }
+    ]
+  }
+}

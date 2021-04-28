@@ -1,0 +1,279 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 10788,
+    "StartTime": "2020-12-13T01:19:19Z",
+    "Title": "383",
+    "MapWidth": 128,
+    "MapHeight": 128,
+    "AvailSlotsCount": 8,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Top vs Bottom",
+      "ID": 15,
+      "ShortName": "TvB"
+    },
+    "SubType": 4,
+    "Host": "storm80",
+    "Map": "•Fa§te§t Po§\u0007§ible M",
+    "Players": [
+      {
+        "SlotID": 3,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 1,
+        "Name": "shap",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 6,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 7,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Space Platform",
+      "ID": 1
+    },
+    "Name": "뷚a쬽e쬽 Po�\u0007쬲ble Map� \u0005Space ",
+    "Description": "\u0006Fa�\u0007te쬽 Po㎣ible \u0002on space terrain.\r\nStacked minerals:\r\nLined up vaspenes:\r\nPlenty of room:\r\n\u0004Channel: \u0007Clan S)5\r\n\u0004Created by: \u0003Goku.SS)5",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 352,
+        "Y": 304,
+        "SlotID": 0
+      },
+      {
+        "X": 2208,
+        "Y": 304,
+        "SlotID": 1
+      },
+      {
+        "X": 3744,
+        "Y": 304,
+        "SlotID": 2
+      },
+      {
+        "X": 352,
+        "Y": 1776,
+        "SlotID": 3
+      },
+      {
+        "X": 3744,
+        "Y": 1776,
+        "SlotID": 4
+      },
+      {
+        "X": 352,
+        "Y": 3792,
+        "SlotID": 5
+      },
+      {
+        "X": 1920,
+        "Y": 3792,
+        "SlotID": 6
+      },
+      {
+        "X": 3744,
+        "Y": 3792,
+        "SlotID": 7
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 10142,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": null,
+    "WinnerTeam": 0,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 10142,
+        "CmdCount": 422,
+        "APM": 59,
+        "EffectiveCmdCount": 420,
+        "EAPM": 59,
+        "StartLocation": {
+          "X": 352,
+          "Y": 1776
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 10371,
+        "CmdCount": 228,
+        "APM": 31,
+        "EffectiveCmdCount": 223,
+        "EAPM": 31,
+        "StartLocation": {
+          "X": 3744,
+          "Y": 1776
+        },
+        "StartDirection": 3
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 10153,
+        "CmdCount": 190,
+        "APM": 27,
+        "EffectiveCmdCount": 189,
+        "EAPM": 27,
+        "StartLocation": {
+          "X": 1920,
+          "Y": 3792
+        },
+        "StartDirection": 6
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 10772,
+        "CmdCount": 544,
+        "APM": 72,
+        "EffectiveCmdCount": 540,
+        "EAPM": 72,
+        "StartLocation": {
+          "X": 2208,
+          "Y": 304
+        },
+        "StartDirection": 12
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 10772,
+        "CmdCount": 505,
+        "APM": 67,
+        "EffectiveCmdCount": 498,
+        "EAPM": 66,
+        "StartLocation": {
+          "X": 3744,
+          "Y": 3792
+        },
+        "StartDirection": 5
+      }
+    ]
+  }
+}

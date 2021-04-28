@@ -1,0 +1,316 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 17799,
+    "StartTime": "2021-04-25T01:21:03+01:00",
+    "Title": "383",
+    "MapWidth": 192,
+    "MapHeight": 192,
+    "AvailSlotsCount": 6,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Top vs Bottom",
+      "ID": 15,
+      "ShortName": "TvB"
+    },
+    "SubType": 3,
+    "Host": "Harrier80",
+    "Map": "Medusa",
+    "Players": [
+      {
+        "SlotID": 2,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 0,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "shap",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 205,
+    "TileSet": {
+      "Name": "Twilight",
+      "ID": 7
+    },
+    "Name": "Medusa",
+    "Description": "Suggested Players: 2-6\r\n\r\nDon't look!",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 1504,
+        "Y": 272,
+        "SlotID": 1
+      },
+      {
+        "X": 4704,
+        "Y": 272,
+        "SlotID": 2
+      },
+      {
+        "X": 5824,
+        "Y": 2960,
+        "SlotID": 3
+      },
+      {
+        "X": 320,
+        "Y": 2992,
+        "SlotID": 0
+      },
+      {
+        "X": 4576,
+        "Y": 5840,
+        "SlotID": 4
+      },
+      {
+        "X": 1536,
+        "Y": 5840,
+        "SlotID": 5
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 14382,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 14563,
+        "PlayerID": 2,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": null,
+    "WinnerTeam": 2,
+    "PlayerDescs": [
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 14382,
+        "CmdCount": 411,
+        "APM": 41,
+        "EffectiveCmdCount": 408,
+        "EAPM": 41,
+        "StartLocation": {
+          "X": 4704,
+          "Y": 272
+        },
+        "StartDirection": 1
+      },
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 17606,
+        "CmdCount": 533,
+        "APM": 43,
+        "EffectiveCmdCount": 500,
+        "EAPM": 41,
+        "StartLocation": {
+          "X": 5824,
+          "Y": 2960
+        },
+        "StartDirection": 3
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 14563,
+        "CmdCount": 448,
+        "APM": 44,
+        "EffectiveCmdCount": 442,
+        "EAPM": 43,
+        "StartLocation": {
+          "X": 1536,
+          "Y": 5840
+        },
+        "StartDirection": 7
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 17794,
+        "CmdCount": 797,
+        "APM": 64,
+        "EffectiveCmdCount": 774,
+        "EAPM": 62,
+        "StartLocation": {
+          "X": 320,
+          "Y": 2992
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 17798,
+        "CmdCount": 1160,
+        "APM": 93,
+        "EffectiveCmdCount": 1146,
+        "EAPM": 92,
+        "StartLocation": {
+          "X": 1504,
+          "Y": 272
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 17748,
+        "CmdCount": 386,
+        "APM": 31,
+        "EffectiveCmdCount": 368,
+        "EAPM": 30,
+        "StartLocation": {
+          "X": 4576,
+          "Y": 5840
+        },
+        "StartDirection": 5
+      }
+    ]
+  }
+}

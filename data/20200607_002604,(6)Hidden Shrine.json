@@ -1,0 +1,342 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 12651,
+    "StartTime": "2020-06-07T00:16:52+01:00",
+    "Title": "383",
+    "MapWidth": 128,
+    "MapHeight": 128,
+    "AvailSlotsCount": 6,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Top vs Bottom",
+      "ID": 15,
+      "ShortName": "TvB"
+    },
+    "SubType": 3,
+    "Host": "storm80",
+    "Map": "Hidden Shrine",
+    "Players": [
+      {
+        "SlotID": 1,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 0,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 2,
+        "Name": "shap",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Badlands",
+      "ID": 0
+    },
+    "Name": "Hidden Shrine",
+    "Description": "Suggested Players: 2-6\r\n\r\nSix travellers looking for the Hidden Shrine. Only one may have it.\r\n",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 480,
+        "Y": 304,
+        "SlotID": 0
+      },
+      {
+        "X": 3200,
+        "Y": 304,
+        "SlotID": 1
+      },
+      {
+        "X": 3648,
+        "Y": 2096,
+        "SlotID": 2
+      },
+      {
+        "X": 480,
+        "Y": 2416,
+        "SlotID": 5
+      },
+      {
+        "X": 3584,
+        "Y": 3664,
+        "SlotID": 3
+      },
+      {
+        "X": 1344,
+        "Y": 3824,
+        "SlotID": 4
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": null,
+    "ChatCmds": [
+      {
+        "Frame": 902,
+        "PlayerID": 2,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 5,
+        "Message": "11?"
+      },
+      {
+        "Frame": 1006,
+        "PlayerID": 2,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 3,
+        "Message": "k"
+      },
+      {
+        "Frame": 3588,
+        "PlayerID": 2,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "7?"
+      },
+      {
+        "Frame": 3860,
+        "PlayerID": 2,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 5,
+        "Message": "11?"
+      },
+      {
+        "Frame": 3972,
+        "PlayerID": 2,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "K"
+      }
+    ],
+    "WinnerTeam": 2,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 12534,
+        "CmdCount": 325,
+        "APM": 37,
+        "EffectiveCmdCount": 324,
+        "EAPM": 37,
+        "StartLocation": {
+          "X": 3200,
+          "Y": 304
+        },
+        "StartDirection": 1
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 12647,
+        "CmdCount": 529,
+        "APM": 60,
+        "EffectiveCmdCount": 519,
+        "EAPM": 59,
+        "StartLocation": {
+          "X": 3584,
+          "Y": 3664
+        },
+        "StartDirection": 5
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 12006,
+        "CmdCount": 248,
+        "APM": 30,
+        "EffectiveCmdCount": 247,
+        "EAPM": 29,
+        "StartLocation": {
+          "X": 480,
+          "Y": 2416
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 12599,
+        "CmdCount": 210,
+        "APM": 24,
+        "EffectiveCmdCount": 208,
+        "EAPM": 24,
+        "StartLocation": {
+          "X": 480,
+          "Y": 304
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 12643,
+        "CmdCount": 324,
+        "APM": 37,
+        "EffectiveCmdCount": 309,
+        "EAPM": 35,
+        "StartLocation": {
+          "X": 3648,
+          "Y": 2096
+        },
+        "StartDirection": 3
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 12641,
+        "CmdCount": 636,
+        "APM": 72,
+        "EffectiveCmdCount": 632,
+        "EAPM": 71,
+        "StartLocation": {
+          "X": 1344,
+          "Y": 3824
+        },
+        "StartDirection": 7
+      }
+    ]
+  }
+}

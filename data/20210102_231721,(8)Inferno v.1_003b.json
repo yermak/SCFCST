@@ -1,0 +1,402 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 24145,
+    "StartTime": "2021-01-02T22:59:57Z",
+    "Title": "383",
+    "MapWidth": 256,
+    "MapHeight": 256,
+    "AvailSlotsCount": 8,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Top vs Bottom",
+      "ID": 15,
+      "ShortName": "TvB"
+    },
+    "SubType": 4,
+    "Host": "storm80",
+    "Map": "Inferno holy ground",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 6,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "White",
+          "ID": 6,
+          "RGB": 13426896
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 59,
+    "TileSet": {
+      "Name": "Jungle",
+      "ID": 4
+    },
+    "Name": "Inferno holy ground",
+    "Description": "Destroy all enemy buildings.",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 4576,
+        "Y": 240,
+        "SlotID": 7
+      },
+      {
+        "X": 352,
+        "Y": 272,
+        "SlotID": 0
+      },
+      {
+        "X": 7776,
+        "Y": 272,
+        "SlotID": 6
+      },
+      {
+        "X": 288,
+        "Y": 3824,
+        "SlotID": 1
+      },
+      {
+        "X": 7904,
+        "Y": 4080,
+        "SlotID": 5
+      },
+      {
+        "X": 288,
+        "Y": 7888,
+        "SlotID": 2
+      },
+      {
+        "X": 7808,
+        "Y": 7920,
+        "SlotID": 4
+      },
+      {
+        "X": 4448,
+        "Y": 7952,
+        "SlotID": 3
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 23779,
+        "PlayerID": 2,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 24065,
+        "PlayerID": 4,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": [
+      {
+        "Frame": 18158,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "6?"
+      },
+      {
+        "Frame": 18358,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "5?"
+      },
+      {
+        "Frame": 18642,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "pozdno"
+      },
+      {
+        "Frame": 20198,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "5 ya idu"
+      },
+      {
+        "Frame": 20488,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "ok"
+      },
+      {
+        "Frame": 20684,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "ya opozdau"
+      },
+      {
+        "Frame": 21827,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "ya 9 - leha - 6?"
+      },
+      {
+        "Frame": 22120,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "davayte vmeste"
+      },
+      {
+        "Frame": 22341,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "9?"
+      },
+      {
+        "Frame": 22532,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "da"
+      },
+      {
+        "Frame": 22587,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "k"
+      }
+    ],
+    "WinnerTeam": 1,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 24056,
+        "CmdCount": 622,
+        "APM": 37,
+        "EffectiveCmdCount": 620,
+        "EAPM": 37,
+        "StartLocation": {
+          "X": 352,
+          "Y": 272
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 23964,
+        "CmdCount": 621,
+        "APM": 37,
+        "EffectiveCmdCount": 604,
+        "EAPM": 36,
+        "StartLocation": {
+          "X": 288,
+          "Y": 7888
+        },
+        "StartDirection": 8
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 24083,
+        "CmdCount": 678,
+        "APM": 40,
+        "EffectiveCmdCount": 670,
+        "EAPM": 40,
+        "StartLocation": {
+          "X": 7776,
+          "Y": 272
+        },
+        "StartDirection": 1
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 23779,
+        "CmdCount": 1245,
+        "APM": 75,
+        "EffectiveCmdCount": 1240,
+        "EAPM": 74,
+        "StartLocation": {
+          "X": 288,
+          "Y": 3824
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 24065,
+        "CmdCount": 1264,
+        "APM": 75,
+        "EffectiveCmdCount": 1259,
+        "EAPM": 75,
+        "StartLocation": {
+          "X": 4448,
+          "Y": 7952
+        },
+        "StartDirection": 6
+      }
+    ]
+  }
+}

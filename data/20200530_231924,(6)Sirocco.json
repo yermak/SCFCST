@@ -1,0 +1,325 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 16320,
+    "StartTime": "2020-05-30T23:05:18+01:00",
+    "Title": "383",
+    "MapWidth": 192,
+    "MapHeight": 128,
+    "AvailSlotsCount": 6,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Use map settings",
+      "ID": 10,
+      "ShortName": "UMS"
+    },
+    "SubType": 1,
+    "Host": "Harrier80",
+    "Map": "Sirocco",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Zerg",
+          "ID": 0,
+          "ShortName": "zerg",
+          "Letter": 90
+        },
+        "Team": 1,
+        "Name": "shap",
+        "Color": {
+          "Name": "Orange",
+          "ID": 4,
+          "RGB": 16288788
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 2,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Purple",
+          "ID": 3,
+          "RGB": 8929436
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 5,
+        "ID": 5,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 205,
+    "TileSet": {
+      "Name": "Desert",
+      "ID": 5
+    },
+    "Name": "Sirocco",
+    "Description": "Suggested Players: 2-6\r\n(FOR ALLIED PLAY USE MAP SETTINGS)\r\n\r\nYour Enemy flamed you on the forums.  There is only one recourse.",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 3936,
+        "Y": 880,
+        "SlotID": 3
+      },
+      {
+        "X": 2368,
+        "Y": 1104,
+        "SlotID": 4
+      },
+      {
+        "X": 4832,
+        "Y": 1968,
+        "SlotID": 1
+      },
+      {
+        "X": 1248,
+        "Y": 2000,
+        "SlotID": 0
+      },
+      {
+        "X": 2304,
+        "Y": 3056,
+        "SlotID": 2
+      },
+      {
+        "X": 4192,
+        "Y": 3120,
+        "SlotID": 5
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 16207,
+        "PlayerID": 2,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": [
+      {
+        "Frame": 2310,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "plan?"
+      },
+      {
+        "Frame": 2448,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 2,
+        "Message": "RUSH?"
+      }
+    ],
+    "WinnerTeam": 2,
+    "PlayerDescs": [
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 16110,
+        "CmdCount": 409,
+        "APM": 36,
+        "EffectiveCmdCount": 404,
+        "EAPM": 36,
+        "StartLocation": {
+          "X": 1248,
+          "Y": 2000
+        },
+        "StartDirection": 9
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 16207,
+        "CmdCount": 400,
+        "APM": 35,
+        "EffectiveCmdCount": 398,
+        "EAPM": 35,
+        "StartLocation": {
+          "X": 2304,
+          "Y": 3056
+        },
+        "StartDirection": 7
+      },
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 16265,
+        "CmdCount": 316,
+        "APM": 28,
+        "EffectiveCmdCount": 307,
+        "EAPM": 27,
+        "StartLocation": {
+          "X": 2368,
+          "Y": 1104
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 16318,
+        "CmdCount": 1137,
+        "APM": 100,
+        "EffectiveCmdCount": 1058,
+        "EAPM": 93,
+        "StartLocation": {
+          "X": 4832,
+          "Y": 1968
+        },
+        "StartDirection": 3
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 16278,
+        "CmdCount": 297,
+        "APM": 26,
+        "EffectiveCmdCount": 296,
+        "EAPM": 26,
+        "StartLocation": {
+          "X": 3936,
+          "Y": 880
+        },
+        "StartDirection": 1
+      },
+      {
+        "PlayerID": 5,
+        "LastCmdFrame": 16255,
+        "CmdCount": 577,
+        "APM": 51,
+        "EffectiveCmdCount": 567,
+        "EAPM": 50,
+        "StartLocation": {
+          "X": 4192,
+          "Y": 3120
+        },
+        "StartDirection": 4
+      }
+    ]
+  }
+}

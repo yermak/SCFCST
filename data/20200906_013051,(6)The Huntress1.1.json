@@ -1,0 +1,326 @@
+{
+  "Header": {
+    "Engine": {
+      "Name": "Brood War",
+      "ID": 1,
+      "ShortName": "BW"
+    },
+    "Frames": 61195,
+    "StartTime": "2020-09-06T00:40:31+01:00",
+    "Title": "383",
+    "MapWidth": 128,
+    "MapHeight": 128,
+    "AvailSlotsCount": 6,
+    "Speed": {
+      "Name": "Fastest",
+      "ID": 6
+    },
+    "Type": {
+      "Name": "Free For All",
+      "ID": 3,
+      "ShortName": "FFA"
+    },
+    "SubType": 1,
+    "Host": "storm80",
+    "Map": "\u0003The \u0006Huntress",
+    "Players": [
+      {
+        "SlotID": 0,
+        "ID": 4,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 1,
+        "Name": "Harrier80",
+        "Color": {
+          "Name": "Red",
+          "ID": 0,
+          "RGB": 15991812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 1,
+        "ID": 3,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 2,
+        "Name": "Krichman",
+        "Color": {
+          "Name": "Teal",
+          "ID": 2,
+          "RGB": 2929812
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 2,
+        "ID": 1,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 3,
+        "Name": "DEFT80",
+        "Color": {
+          "Name": "Brown",
+          "ID": 5,
+          "RGB": 7352340
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 3,
+        "ID": 2,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Terran",
+          "ID": 1,
+          "ShortName": "ran",
+          "Letter": 84
+        },
+        "Team": 4,
+        "Name": "MAxWellMax",
+        "Color": {
+          "Name": "Yellow",
+          "ID": 7,
+          "RGB": 16579640
+        },
+        "Observer": false
+      },
+      {
+        "SlotID": 4,
+        "ID": 0,
+        "Type": {
+          "Name": "Human",
+          "ID": 2
+        },
+        "Race": {
+          "Name": "Protoss",
+          "ID": 2,
+          "ShortName": "toss",
+          "Letter": 80
+        },
+        "Team": 5,
+        "Name": "storm80",
+        "Color": {
+          "Name": "Blue",
+          "ID": 1,
+          "RGB": 805068
+        },
+        "Observer": false
+      }
+    ]
+  },
+  "Commands": null,
+  "MapData": {
+    "Version": 205,
+    "TileSet": {
+      "Name": "Twilight",
+      "ID": 7
+    },
+    "Name": "\u0003The \u0006Huntress",
+    "Description": "\u0002Based on '\u0007Deep Purple\u0002' by likewise_(R) in 2000. 02. 08.      \u0006The loser was hunted from the \u0003Lost Temple. \u0006Now, the Huntress is their one and only hope...    \u0007Scenario ver. 1.1\r\n\u0004Modified by Rose.of.Dream.\r\n\u0004E-mail : heaven923@hanmail.net",
+    "Tiles": null,
+    "MineralFields": null,
+    "Geysers": null,
+    "StartLocations": [
+      {
+        "X": 384,
+        "Y": 304,
+        "SlotID": 0
+      },
+      {
+        "X": 3680,
+        "Y": 304,
+        "SlotID": 1
+      },
+      {
+        "X": 384,
+        "Y": 1552,
+        "SlotID": 2
+      },
+      {
+        "X": 3744,
+        "Y": 2608,
+        "SlotID": 3
+      },
+      {
+        "X": 3712,
+        "Y": 3792,
+        "SlotID": 5
+      },
+      {
+        "X": 384,
+        "Y": 3792,
+        "SlotID": 4
+      }
+    ]
+  },
+  "Computed": {
+    "LeaveGameCmds": [
+      {
+        "Frame": 42560,
+        "PlayerID": 2,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 54370,
+        "PlayerID": 1,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 55263,
+        "PlayerID": 0,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      },
+      {
+        "Frame": 61151,
+        "PlayerID": 3,
+        "Type": {
+          "Name": "Leave Game",
+          "ID": 87
+        },
+        "Reason": {
+          "Name": "Quit",
+          "ID": 1
+        }
+      }
+    ],
+    "ChatCmds": [
+      {
+        "Frame": 819,
+        "PlayerID": 4,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 0,
+        "Message": "allie?"
+      },
+      {
+        "Frame": 1950,
+        "PlayerID": 4,
+        "Type": {
+          "Name": "Chat",
+          "ID": 92
+        },
+        "SenderSlotID": 1,
+        "Message": "show me the money"
+      }
+    ],
+    "WinnerTeam": 1,
+    "PlayerDescs": [
+      {
+        "PlayerID": 4,
+        "LastCmdFrame": 61065,
+        "CmdCount": 2068,
+        "APM": 48,
+        "EffectiveCmdCount": 1987,
+        "EAPM": 46,
+        "StartLocation": {
+          "X": 384,
+          "Y": 304
+        },
+        "StartDirection": 11
+      },
+      {
+        "PlayerID": 3,
+        "LastCmdFrame": 61151,
+        "CmdCount": 2287,
+        "APM": 53,
+        "EffectiveCmdCount": 2175,
+        "EAPM": 51,
+        "StartLocation": {
+          "X": 3680,
+          "Y": 304
+        },
+        "StartDirection": 1
+      },
+      {
+        "PlayerID": 1,
+        "LastCmdFrame": 54370,
+        "CmdCount": 3590,
+        "APM": 94,
+        "EffectiveCmdCount": 3428,
+        "EAPM": 90,
+        "StartLocation": {
+          "X": 384,
+          "Y": 1552
+        },
+        "StartDirection": 10
+      },
+      {
+        "PlayerID": 2,
+        "LastCmdFrame": 42560,
+        "CmdCount": 1917,
+        "APM": 64,
+        "EffectiveCmdCount": 1861,
+        "EAPM": 62,
+        "StartLocation": {
+          "X": 3744,
+          "Y": 2608
+        },
+        "StartDirection": 4
+      },
+      {
+        "PlayerID": 0,
+        "LastCmdFrame": 55263,
+        "CmdCount": 948,
+        "APM": 25,
+        "EffectiveCmdCount": 940,
+        "EAPM": 24,
+        "StartLocation": {
+          "X": 384,
+          "Y": 3792
+        },
+        "StartDirection": 7
+      }
+    ]
+  }
+}
